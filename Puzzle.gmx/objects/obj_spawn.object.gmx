@@ -60,7 +60,7 @@ puzzle = instance_create(0,inicio,obj_pieza);
 puzzle.sprite_index = spr_puzzle;
 puzzle.image_speed = 0;
 puzzle.image_index = 0;
-datos[0] = 521;
+datos[0] = 0;
 }
  
 if(instance_number(obj_pieza) &lt; (piezas+1)){
